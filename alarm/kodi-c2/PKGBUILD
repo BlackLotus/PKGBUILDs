@@ -85,7 +85,7 @@ package_kodi-c2() {
     'bluez-libs' 'fribidi' 'glew' 'hicolor-icon-theme' 'libcdio'
     'libjpeg-turbo' 'libmariadbclient' 'libmicrohttpd' 'libpulse' 'libssh'
     'libva' 'libxrandr' 'libxslt' 'lzo' 'sdl2' 'smbclient' 'taglib' 'tinyxml'
-    'yajl' 'odroid-c2-libgl-fb' 'aml-libs-c2' 'mesa'
+    'yajl' 'odroid-c2-libgl-fb' 'aml-libs-c2' 'mesa' 'freetype2'
   )
   optdepends=(
     'afpfs-ng: Apple shares support'
@@ -100,7 +100,6 @@ package_kodi-c2() {
     'unzip: Archives support'
     'upower: Display battery level'
     'lsb-release: log distro information in crashlog'
-    'aml-libs-c2: library needed for video playback'
   )
   install="kodi.install"
   provides=('xbmc' 'kodi')
